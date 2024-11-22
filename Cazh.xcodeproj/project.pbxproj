@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CDA7DCCD2CF0930A003AF17A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CDA7DCCC2CF09304003AF17A /* .gitignore */; };
+		CDA7DCCF2CF0945C003AF17A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CDA7DCCE2CF09453003AF17A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		CDA7DCAD2CF092E5003AF17A /* CazhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CazhTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA7DCB72CF092E5003AF17A /* CazhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CazhUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA7DCCC2CF09304003AF17A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CDA7DCCE2CF09453003AF17A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +82,7 @@
 		CDA7DC932CF092E4003AF17A = {
 			isa = PBXGroup;
 			children = (
+				CDA7DCCE2CF09453003AF17A /* README.md */,
 				CDA7DCCC2CF09304003AF17A /* .gitignore */,
 				CDA7DC9E2CF092E4003AF17A /* Cazh */,
 				CDA7DCB02CF092E5003AF17A /* CazhTests */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA7DCCD2CF0930A003AF17A /* .gitignore in Resources */,
+				CDA7DCCF2CF0945C003AF17A /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
